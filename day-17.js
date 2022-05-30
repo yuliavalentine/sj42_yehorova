@@ -15,8 +15,8 @@ function countGrade(arr) {
 // https://www.codewars.com/kata/57308546bd9f0987c2000d07
 
 function mirrorImage(arr) {
-    var a, b;
-    var result = arr.some((x, i) => {
+    let a, b;
+    let result = arr.some((x, i) => {
         a = x, b = arr[i + 1];
         return x === Number(String(b).split('').reverse().join(''));
     });
